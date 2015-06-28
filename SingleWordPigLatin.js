@@ -9,7 +9,7 @@ function pigLatin(string) {
     result = string + 'way';
   }
   else {
-    //comment deleted
+    //comment updated again!
   }
 
   return result;
