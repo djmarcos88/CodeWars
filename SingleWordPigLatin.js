@@ -1,7 +1,7 @@
 function pigLatin(string) {
   var result;
 
-  console.log(!/^[a-zA-Z]+$/.test(string));
+  string = string.toLowerCase();
   if (!/^[a-zA-Z]+$/.test(string)) {
     result = null;
   }
@@ -9,7 +9,13 @@ function pigLatin(string) {
     result = string + 'way';
   }
   else {
-    //comment updated again!
+    var regExResult = /^[bcdfghjklmnpqrstvwxyz]+/.exec(string);
+    var start = regExResult.index;
+    var end = regExResult[0].length;
+
+    var firstSlice = string.slice(start, end);
+    var secondSlice = string.slice(end);
+    result = secondSlice + firstSlice + 'ay';
   }
 
   return result;
