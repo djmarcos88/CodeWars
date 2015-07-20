@@ -1,0 +1,7 @@
+C:\Users\Marcos\Documents\GitHub\Tests\bin\Debug\Tests.dll
+C:\Users\Marcos\Documents\GitHub\Tests\bin\Debug\Tests.pdb
+C:\Users\Marcos\Documents\GitHub\Tests\bin\Debug\CodeWars.dll
+C:\Users\Marcos\Documents\GitHub\Tests\bin\Debug\CodeWars.pdb
+C:\Users\Marcos\Documents\GitHub\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Marcos\Documents\GitHub\Tests\obj\Debug\Tests.dll
+C:\Users\Marcos\Documents\GitHub\Tests\obj\Debug\Tests.pdb
