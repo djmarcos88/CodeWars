@@ -1,0 +1,1 @@
+D:\Web Projects\CodeWars-master\Solution\CodeWars\obj\Debug\CodeWars.csprojResolveAssemblyReference.cache
