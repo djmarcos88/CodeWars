@@ -1,44 +1,35 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 
 public static class Kata
 {
 	public static int DescendingOrder(int num)
 	{
+		int result = 0;
+
 		var array = num.toIntArray();
 
-		return orderIntegersAscending(array);
-	}
+		sortIntegersAscendingHelper comparer = new sortIntegersAscendingHelper();
+		Array.Sort(array, comparer);
 
-	public static int orderIntegersAscending(int[] integers)
-	{
-		int result = 0;
-		List<int> integerList = new List<int>();
-		int length = integers.Length;
-
-		
-
-		while (length > 0)
-		{
-			int control = 0;
-
-			foreach (int integer in integers)
-			{
-				if (integer > control)
-				{
-					control = integer;
-				}
-				
-			}
-
-
-		}
-
-		
-
+		result = int.Parse(String.Concat(array));
 
 		return result;
+	}
+
+	public class sortIntegersAscendingHelper : IComparer
+	{
+		int IComparer.Compare(object a, object b)
+		{
+			int c1 = (int)a;
+			int c2 = (int)b;
+			if (c1 < c2)
+				return 1;
+			if (c1 > c2)
+				return -1;
+			else
+				return 0;
+		}
 	}
 
 	public static int[] toIntArray(this int num)
@@ -50,7 +41,7 @@ public static class Kata
 
 		for (int i = 0; i < chars.Length; i++)
 		{
-			array[i] = Convert.ToInt32(chars[i]);
+			array[i] = Convert.ToInt32(chars[i].ToString());
 		}
 
 		return array;

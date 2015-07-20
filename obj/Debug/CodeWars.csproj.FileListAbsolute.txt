@@ -1,1 +1,6 @@
 D:\Web Projects\CodeWars-master\Solution\CodeWars\obj\Debug\CodeWars.csprojResolveAssemblyReference.cache
+C:\Users\Marcos\Documents\GitHub\CodeWars\bin\Debug\CodeWars.dll
+C:\Users\Marcos\Documents\GitHub\CodeWars\bin\Debug\CodeWars.pdb
+C:\Users\Marcos\Documents\GitHub\CodeWars\obj\Debug\CodeWars.csprojResolveAssemblyReference.cache
+C:\Users\Marcos\Documents\GitHub\CodeWars\obj\Debug\CodeWars.dll
+C:\Users\Marcos\Documents\GitHub\CodeWars\obj\Debug\CodeWars.pdb
