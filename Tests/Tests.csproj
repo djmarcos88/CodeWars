@@ -54,7 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CodeWars\CodeWars.csproj">
+    <ProjectReference Include="..\CodeWars.csproj">
       <Project>{0c945dec-f5e3-42f5-9ab4-281c9c299db6}</Project>
       <Name>CodeWars</Name>
     </ProjectReference>

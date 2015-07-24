@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeWars.CSharp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
@@ -16,6 +17,23 @@ namespace Tests
 			Assert.AreEqual(98321, Kata.DescendingOrder(21398));
 
 			Assert.AreEqual(987654321, Kata.DescendingOrder(123456789));
-		} 
+		}
+
+
+		[TestMethod]
+		public void DirReduction1()
+		{
+			string[] a = new string[] { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
+			string[] b = new string[] { "WEST" };
+			Assert.AreEqual(b, DirReduction.dirReduc(a));
+		}
+
+		[TestMethod]
+		public void DirReduction2()
+		{
+			string[] a = new string[] { "NORTH", "WEST", "SOUTH", "EAST" };
+			string[] b = new string[] { "NORTH", "WEST", "SOUTH", "EAST" };
+			Assert.AreEqual(b, DirReduction.dirReduc(a));
+		}
 	}
 }
