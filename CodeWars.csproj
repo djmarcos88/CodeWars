@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="CSharp\DescendingOrder.cs" />
     <Compile Include="CSharp\DirectionsReduction.cs" />
+    <Compile Include="CSharp\VasyaAndStairs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

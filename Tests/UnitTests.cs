@@ -1,5 +1,4 @@
 ﻿using System;
-using CodeWars.CSharp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
